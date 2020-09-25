@@ -1,6 +1,6 @@
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.forms import HiddenInput
-from django.contrib.staticfiles.templatetags.staticfiles import static
+from django.templatetags.static import static
 
 
 class AudioFileWidget(HiddenInput):
@@ -24,8 +24,8 @@ class AudioFileWidget(HiddenInput):
 
         return attrs
 
-    def render(self, name, value, attrs=None):
-        html = super(AudioFileWidget, self).render(name, value, attrs=None)
+    def render(self, name, value, attrs=None, renderer=None):
+        html = super(AudioFileWidget, self).render(name, value, attrs=None, renderer=None)
         if value:
             instance = self.choices.queryset.filter(id=value).first()
             audio_template = (
