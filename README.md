@@ -1,3 +1,5 @@
+#python 버전 업그레이드와 django 업그레이드로 인한 오류 
+
 # Django Audio Recorder
 
 Create a javascript audio recorder and save audio files using django.
