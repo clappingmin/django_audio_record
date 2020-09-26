@@ -1,5 +1,4 @@
-## python 버전 업그레이드와
-## django 업그레이드로 인한 오류 수정
+## python 버전 업그레이드와 django 업그레이드로 인한 오류 수정
 
 # Django Audio Recorder
 
