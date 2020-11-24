@@ -1,4 +1,4 @@
-## python 버전 업그레이드와 django 업그레이드로 인한 오류 수정
+## Fix errors due to python version upgrade and django upgrade - clappingmin 👏👏👏
 
 # Django Audio Recorder
 
