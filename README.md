@@ -1,4 +1,4 @@
-## Fix errors due to python version upgrade and django upgrade - clappingmin 👏👏👏
+### Fix errors due to python version upgrade and django upgrade - clappingmin 👏👏👏
 
 # Django Audio Recorder
 
